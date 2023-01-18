@@ -1,10 +1,20 @@
-window.onload = function() {
-    fetch('/my-endpoint/')
-      .then(response => response.json())
-      .then(data => {
-        // do something with the data
-      })
-      .catch(error => {
-        console.error('Error:', error);
-      });
-  }
+
+
+
+
+// API mangement:-
+const url = "http://127.0.0.1:8888/"
+
+fetch(url + "blog/")
+  .then(response => response.json())
+  .then(data => {
+
+
+
+    for (let i in data.results) {
+      
+
+    }
+
+
+  });
